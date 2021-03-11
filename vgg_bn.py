@@ -33,7 +33,7 @@ def VGG16_BN(input_tensor=None, input_shape=None, classes=1000, conv_dropout=0.1
     # Arguments
         input_tensor: Keras tensor (i.e. output of `layers.Input()`) to use as image input for the model.
         input_shape: shape tuple
-        classes: optional number of classes to classify images
+        classes: optional number of classes to classify images, 1000 as per the imagenet
     # Returns
         A Keras model instance.
     """
